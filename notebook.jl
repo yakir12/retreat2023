@@ -101,15 +101,6 @@ ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 TestImages = "5e47fb64-e119-507b-a336-dd2b206d9990"
-
-[compat]
-Distributions = "~0.25.102"
-FileIO = "~1.16.1"
-ImageFiltering = "~0.7.8"
-ImageShow = "~0.3.8"
-PlutoUI = "~0.7.52"
-StatsPlots = "~0.15.6"
-TestImages = "~1.8.0"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -118,7 +109,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.9.3"
 manifest_format = "2.0"
-project_hash = "0f860697502e73da0f30d84114011f79da5c7315"
+project_hash = "4823b67c3dee4f710e3327e5635e7e86fb3cea5a"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -361,9 +352,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[deps.Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "Test"]
-git-tree-sha1 = "3d5873f811f582873bb9871fc9c451784d5dc8c7"
+git-tree-sha1 = "9e11104e7b41a8a5f04e8694467fc1f94a135bd7"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.25.102"
+version = "0.25.101"
 
     [deps.Distributions.extensions]
     DistributionsChainRulesCoreExt = "ChainRulesCore"
@@ -1312,9 +1303,9 @@ weakdeps = ["OffsetArrays", "StaticArrays"]
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore"]
-git-tree-sha1 = "0adf069a2a490c47273727e029371b31d44b72b2"
+git-tree-sha1 = "d5fb407ec3179063214bc6277712928ba78459e2"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.6.5"
+version = "1.6.4"
 weakdeps = ["Statistics"]
 
     [deps.StaticArrays.extensions]
@@ -1513,9 +1504,9 @@ version = "0.5.5"
 
 [[deps.XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Zlib_jll"]
-git-tree-sha1 = "24b81b59bd35b3c42ab84fa589086e19be919916"
+git-tree-sha1 = "04a51d15436a572301b5abbb9d099713327e9fc4"
 uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
-version = "2.11.5+0"
+version = "2.10.4+0"
 
 [[deps.XSLT_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libgcrypt_jll", "Libgpg_error_jll", "Libiconv_jll", "Pkg", "XML2_jll", "Zlib_jll"]
@@ -1738,7 +1729,7 @@ version = "1.4.1+1"
 
 # ╔═╡ Cell order:
 # ╠═8571877b-7f8c-467b-a6a0-759bfe9050cc
-# ╠═a227441e-edde-4520-941d-b647d939e9aa
+# ╟─a227441e-edde-4520-941d-b647d939e9aa
 # ╠═ae5b31d6-6160-11ee-1a6a-4b7965ceadbb
 # ╠═8c03c8a1-686b-445e-aa06-e4d5c2569edf
 # ╠═98e4c4e0-52c2-4447-a680-42036e61a115
