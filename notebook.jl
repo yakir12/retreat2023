@@ -14,44 +14,11 @@ macro bind(def, element)
     end
 end
 
-# ╔═╡ 8571877b-7f8c-467b-a6a0-759bfe9050cc
-using FileIO
-
 # ╔═╡ ae5b31d6-6160-11ee-1a6a-4b7965ceadbb
 using TestImages, ImageFiltering, ImageShow, PlutoUI, StatsPlots, Distributions
 
 # ╔═╡ a227441e-edde-4520-941d-b647d939e9aa
 md"""
-# Past & current
-## R-values, compass and motor errors, and the weight between them
-- Chantal Nguyen (Orit's postdoc) and I are trying to sync
-- Claudia's dataset with 10 semipunctatus individuals, with 10 runs each, on 2 differently large arenas, with data on each beetle's individual step size!
-
-$(load("semipunctatus.png"))
-
-## Polarization camera
-- 3 color channels
-- sensitive to 400--670 nm
-- will describe the DoLP per pixel
-
-$(load("pol_cam.png"))
-
-## Field skyroom setup
-- The LEDs part is finished
-- Johan and Lars are working on the wind/fans setup
-- The control program for both is the same as the one in Nicholas/Sheldon
-
-## Dancing Queen
-- control program is almost done
-- need to install all the hardware in Sheldon
-- Calibrate things
-- and test!
-
-# Future
-- appify some of the tools you use (e.g. the sun and moon tables)
-- South Africa beetles
-- exploring the motor and compass errors with the Dancing Queen
-
 # Simulating animal vision
 - we have an image of something
 - we want to know what that would look like to some animal
@@ -95,7 +62,6 @@ imgf = imfilter(img, Kernel.gaussian(σ))
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
@@ -109,7 +75,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.9.3"
 manifest_format = "2.0"
-project_hash = "4823b67c3dee4f710e3327e5635e7e86fb3cea5a"
+project_hash = "5c6ea4ea5ec261dbb942a3ab0e9db1f647af273f"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -1728,7 +1694,6 @@ version = "1.4.1+1"
 """
 
 # ╔═╡ Cell order:
-# ╠═8571877b-7f8c-467b-a6a0-759bfe9050cc
 # ╟─a227441e-edde-4520-941d-b647d939e9aa
 # ╠═ae5b31d6-6160-11ee-1a6a-4b7965ceadbb
 # ╠═8c03c8a1-686b-445e-aa06-e4d5c2569edf
